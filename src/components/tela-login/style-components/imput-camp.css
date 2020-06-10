@@ -1,0 +1,28 @@
+input {
+    width: 100%;
+    height: 40px;
+
+    font-size: 16px;
+    color: white;
+
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-left: 24px;
+
+    background-color: transparent;
+}
+
+input:focus{
+    outline: none;
+}
+
+.field{
+    position: relative;
+    margin: 10px 0;
+}
+
+.field span{
+    font-size: 20px;
+    position: absolute;
+    bottom: 8px;
+}
